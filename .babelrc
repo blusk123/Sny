@@ -1,0 +1,12 @@
+{
+	"plugins": [
+		  "transform-runtime",
+		  ["transform-react-jsx", {
+			  "pragma": "Sny.createElement"
+		  }]
+	],
+	"presets": [
+	  "env",
+	  "react"
+	]
+}
